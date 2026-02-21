@@ -39,7 +39,8 @@ Therefore, browser Developer Tools were used for further inspection.
 
 2- A cookie named: [secret_recipe]
 
-3- was discovered with the following value: [cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzX0IzQUQ5NEMyfQ%3D%3D]
+3- was discovered with the following value: 
+**cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzX0IzQUQ5NEMyfQ%3D%3D**
 
 ---
 
