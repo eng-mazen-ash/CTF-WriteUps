@@ -35,9 +35,11 @@ Therefore, browser Developer Tools were used for further inspection.
 
 ## 🛠 Investigation
 
-1- Opened Developer Tools: [F12 → Application → Cookies]
+1- Opened Developer Tools: 
+**F12 → Application → Cookies**
 
-2- A cookie named: [secret_recipe]
+2- A cookie named: 
+**secret_recipe**
 
 3- was discovered with the following value: 
 **cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzX0IzQUQ5NEMyfQ%3D%3D**
@@ -48,12 +50,14 @@ Therefore, browser Developer Tools were used for further inspection.
 
 ### Step 1: URL Decode
 
-The string ends with: [%3D%3D]
+The string ends with: 
+**%3D%3D**
 
 
 This indicates URL encoding (`%3D` = `=`).
 
-After URL decoding:  [cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzX0IzQUQ5NEMyfQ==]
+After URL decoding:  
+**cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzX0IzQUQ5NEMyfQ==**
 
 ---
 
@@ -61,12 +65,13 @@ After URL decoding:  [cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzX0IzQUQ5NE
 
 The decoded string appears to be Base64 encoded.
 
-After decoding:  [picoCTF{c00k1e_m0nster_l0ves_c00kies_B3AD94C2}]
+After decoding:  
+**picoCTF{c00k1e_m0nster_l0ves_c00kies_B3AD94C2}**
 
 ---
 
 ## 🏁 Final Flag 
-picoCTF{c00k1e_m0nster_l0ves_c00kies_B3AD94C2
+**picoCTF{c00k1e_m0nster_l0ves_c00kies_B3AD94C2**
 
 ---
 
